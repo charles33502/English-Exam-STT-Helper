@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local audio input files
+input/*
+!input/.gitkeep
+
+# Generated output files
+output/*
+!output/.gitkeep
+
+# Whisper / model cache
+.cache/
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
